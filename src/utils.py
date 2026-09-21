@@ -39,7 +39,7 @@ def calculate_cycle_time(blocks, profile):
         ##elif g_cmd in:
         # Change from: elif g_cmd in:
         # Change to:
-        elif g_cmd in:
+        elif g_cmd in [2, 3]:
         
             # Radius-based Arc Calculation
             if 'R' in block:
