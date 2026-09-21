@@ -1,3 +1,4 @@
+; A Clean Circular Pocket (Testing G02 Arcs)
 G90 G21 G17
 T02 M06 (5MM ENDMILL)
 S4000 M03
