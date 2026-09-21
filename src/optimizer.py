@@ -1,3 +1,8 @@
+import re
+
+#class ToolpathOptimizer:
+    #def __init__(self, blocks, profile):
+
 class ToolpathOptimizer:
     def __init__(self, blocks, profile):
         self.blocks = blocks
