@@ -1,0 +1,8 @@
+{
+  "siemens_840d": {
+    "max_spindle_speed_rpm": 8000,
+    "max_feed_rate_mm_min": 5000,
+    "rapid_traverse_rate_mm_min": 12000,
+    "acceleration_mm_s2": 1500
+  }
+}
