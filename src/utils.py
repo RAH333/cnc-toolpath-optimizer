@@ -24,7 +24,11 @@ def calculate_cycle_time(blocks, profile):
         distance = 0.0
 
         # G00 (Rapid) or G01 (Linear Cutting)
-        if g_cmd in [0, 1] or ('G' not in block and ( 'X' in block or 'Y' in block or 'Z' in block )):
+        ## if g_cmd in [0, 1] or ('G' not in block and ( 'X' in block or 'Y' in block or 'Z' in block )):
+        # Change from: if g_cmd in or ...
+        # Change to:
+        if g_cmd in [0, 1] or ('G' not in block and ('X' in block or 'Y' in block or 'Z' in block)):
+    
             distance = math.sqrt(
                 (target_x - current_pos['X'])**2 + 
                 (target_y - current_pos['Y'])**2 + 
