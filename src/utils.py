@@ -36,7 +36,11 @@ def calculate_cycle_time(blocks, profile):
             )
         
         # G02 (CW Arc) or G03 (CCW Arc)
+        ##elif g_cmd in:
+        # Change from: elif g_cmd in:
+        # Change to:
         elif g_cmd in:
+        
             # Radius-based Arc Calculation
             if 'R' in block:
                 r = block['R']
